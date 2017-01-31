@@ -1,0 +1,16 @@
+appdirs==1.4.0
+Django==1.10.5
+django-braces==1.10.0
+django-oauth-toolkit==0.11.0
+django-rest-framework-social-oauth2==1.0.5
+djangorestframework==3.5.3
+oauthlib==1.1.2
+packaging==16.8
+PyJWT==1.4.2
+pyparsing==2.1.10
+python-openid==2.2.5
+requests==2.13.0
+requests-oauthlib==0.7.0
+six==1.10.0
+social-auth-app-django==1.0.1
+social-auth-core==1.0.1
