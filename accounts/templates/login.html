@@ -91,7 +91,7 @@ function showpages() {
      for (var i = 0; i < arrayLength; i++) {
       var page =  response.data[i]
 
-      $("#pageid").append('<form method="post" action="https://graph.facebook.com/'+page.id+'"><td style="width:10%">'+'<input type="text" name="name" value='+page.name+'></td><td style="width:10%">'+'<input type="text" name="" value='+page.contact_address.country+'></td><td style="width:10%">'+'<input type="text" name="phone" value='+page.phone+'></td><td style="width:10%">'+'<input type="text" name="overall_star_rating" value='+page.overall_star_rating+'><td style="display:none">'+'<input style="display:none" type="text" name="access_token" value='+page.access_token+'></td><button type="submit">update</button></form>')
+      $("#pageid").append('<form method="post" action="https://graph.facebook.com/'+page.id+'"><td style="width:10%">'+'Name: <input type="text" name="name" value='+page.name+'></td><td style="width:10%">'+'Address <input type="text" name="" value='+page.contact_address.country+'></td><td style="width:10%">'+'Phone: <input type="text" name="phone" value='+page.phone+'></td><td style="width:10%">'+'Rating <input type="text" name="overall_star_rating" value='+page.overall_star_rating+'><td style="display:none">'+'<input style="display:none" type="text" name="access_token" value='+page.access_token+'></td><button type="submit">update</button></form>')
     }
     });
 }
